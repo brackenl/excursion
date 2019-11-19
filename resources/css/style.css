@@ -1,24 +1,47 @@
 html {
-    background-color: white;
+    background-color: black;
+    font-family: Verdana;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
 }
 
 body {
     padding-top: 20px;
     background-color: black;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
 h1 {
-    font-family: Verdana;
     font-weight: normal;
     font-size: 50px;
-    color: white;
-    text-align: center;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 21px;
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
 .link {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+a {
     width: 100%;
     color: aquamarine;
     font-size: 16px;
@@ -30,4 +53,33 @@ h1 {
 video {
     margin: 0 auto;
     width: 100%;
+}
+
+/* travel guide section */
+
+.img-container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+img {
+    max-width:75%;
+    max-height:75%;
+}
+
+/* coming-soon */
+
+.coming-soon img {
+    margin: 20px 0;
+}
+
+.coming-soon .link {
+    margin-top: 30px;
+}
+
+/* footer */
+
+footer p {
+    text-align: right;
+    color: gray;
 }
